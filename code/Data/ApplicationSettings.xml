@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<Application name="test">
+	<ScreenSize width="800" height="600"/>
+	<FramerateMax fps="60"/>
+</Application>

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Scene>
+	<m_Root type="GameObject" name="root" id="35">
+		<m_Components>
+			<VectorElement>
+				<ElementVariable type="ComponentGameManager" id="37">
+					<m_InitialEnemyCount value="2">
+					</m_InitialEnemyCount>
+					<m_EnemyManagerComponent targetInstanceID="40">
+					</m_EnemyManagerComponent>
+				</ElementVariable>
+			</VectorElement>
+			<VectorElement>
+				<ElementVariable type="ComponentTransform2D" id="34">
+					<m_LocalTransform2D>
+						<m_Position>
+							<m_X value="0">
+							</m_X>
+							<m_Y value="0">
+							</m_Y>
+						</m_Position>
+						<m_Scale value="1">
+						</m_Scale>
+						<m_Matrix>
+							<m_Components>
+								<ArrayElement>
+									<ElementVariable value="1">
+									</ElementVariable>
+								</ArrayElement>
+								<ArrayElement>
+									<ElementVariable value="0">
+									</ElementVariable>
+								</ArrayElement>
+								<ArrayElement>
+									<ElementVariable value="0">
+									</ElementVariable>
+								</ArrayElement>
+								<ArrayElement>
+									<ElementVariable value="1">
+									</ElementVariable>
+								</ArrayElement>
+							</m_Components>
+						</m_Matrix>
+					</m_LocalTransform2D>
+				</ElementVariable>
+			</VectorElement>
+		</m_Components>
+		<m_Children>
+			<VectorElement>
+				<ElementVariable type="GameObject" name="canon" id="1">
+					<m_Components>
+						<VectorElement>
+							<ElementVariable type="ComponentCanon" id="2">
+								<m_ProjectileManager targetInstanceID="26">
+								</m_ProjectileManager>
+								<m_RotationSpeed value="200">
+								</m_RotationSpeed>
+								<m_MinRotationInDegrees value="-90">
+								</m_MinRotationInDegrees>
+								<m_MaxRotationInDegrees value="90">
+								</m_MaxRotationInDegrees>
+								<m_TimeBetweenShots value="0.015">
+								</m_TimeBetweenShots>
+							</ElementVariable>
+						</VectorElement>
+						<VectorElement>
+							<ElementVariable type="ComponentVisual" id="3">
+								<m_Renderable type="Renderable2DTriangle" id="4">
+									<m_BaseSize value="20">
+									</m_BaseSize>
+									<m_Height value="30">
+									</m_Height>
+									<m_Color>
+										<m_R value="0">
+										</m_R>
+										<m_G value="255">
+										</m_G>
+										<m_B value="0">
+										</m_B>
+									</m_Color>
+								</m_Renderable>
+							</ElementVariable>
+						</VectorElement>
+						<VectorElement>
+							<ElementVariable type="ComponentTransform2D" id="5">
+								<m_LocalTransform2D>
+									<m_Position>
+										<m_X value="400">
+										</m_X>
+										<m_Y value="550">
+										</m_Y>
+									</m_Position>
+									<m_Scale value="1">
+									</m_Scale>
+									<m_Matrix>
+										<m_Components>
+											<ArrayElement>
+												<ElementVariable value="-1">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="0">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="0">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="-1">
+												</ElementVariable>
+											</ArrayElement>
+										</m_Components>
+									</m_Matrix>
+								</m_LocalTransform2D>
+							</ElementVariable>
+						</VectorElement>
+					</m_Components>
+					
+					<m_Children>
+					</m_Children>
+				</ElementVariable>
+			</VectorElement>
+			<VectorElement>
+				<ElementVariable type="GameObject" name="Walls" id="12">
+					<m_Children>
+						<VectorElement>
+							<ElementVariable type="GameObject" name="WallLeft" id="13">
+								<m_Components>
+									<VectorElement>
+										<ElementVariable type="ComponentTransform2D" id="14">
+											<m_LocalTransform2D>
+												<m_Position>
+													<m_X value="-100">
+													</m_X>
+													<m_Y value="300">
+													</m_Y>
+												</m_Position>
+												<m_Scale value="1">
+												</m_Scale>
+												<m_Matrix>
+													<m_Components>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+													</m_Components>
+												</m_Matrix>
+											</m_LocalTransform2D>
+										</ElementVariable>
+									</VectorElement>
+									<VectorElement>
+										<ElementVariable type="ComponentColliderBox" id="15">
+											<m_OffsetLocalSpace>
+												<m_X value="0">
+												</m_X>
+												<m_Y value="0">
+												</m_Y>
+											</m_OffsetLocalSpace>
+											<m_HalfExtentsLocalSpace>
+												<m_X value="100">
+												</m_X>
+												<m_Y value="300">
+												</m_Y>
+											</m_HalfExtentsLocalSpace>
+										</ElementVariable>
+									</VectorElement>
+								</m_Components>
+								
+								<m_Children>
+								</m_Children>
+							</ElementVariable>
+						</VectorElement>
+						<VectorElement>
+							<ElementVariable type="GameObject" name="WallUp" id="16">
+								<m_Components>
+									<VectorElement>
+										<ElementVariable type="ComponentTransform2D" id="17">
+											<m_LocalTransform2D>
+												<m_Position>
+													<m_X value="400">
+													</m_X>
+													<m_Y value="-100">
+													</m_Y>
+												</m_Position>
+												<m_Scale value="1">
+												</m_Scale>
+												<m_Matrix>
+													<m_Components>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+													</m_Components>
+												</m_Matrix>
+											</m_LocalTransform2D>
+										</ElementVariable>
+									</VectorElement>
+									<VectorElement>
+										<ElementVariable type="ComponentColliderBox" id="18">
+											<m_OffsetLocalSpace>
+												<m_X value="0">
+												</m_X>
+												<m_Y value="0">
+												</m_Y>
+											</m_OffsetLocalSpace>
+											<m_HalfExtentsLocalSpace>
+												<m_X value="600">
+												</m_X>
+												<m_Y value="100">
+												</m_Y>
+											</m_HalfExtentsLocalSpace>
+										</ElementVariable>
+									</VectorElement>
+								</m_Components>
+								
+								<m_Children>
+								</m_Children>
+							</ElementVariable>
+						</VectorElement>
+						<VectorElement>
+							<ElementVariable type="GameObject" name="WallRight" id="19">
+								<m_Components>
+									<VectorElement>
+										<ElementVariable type="ComponentTransform2D" id="20">
+											<m_LocalTransform2D>
+												<m_Position>
+													<m_X value="900">
+													</m_X>
+													<m_Y value="300">
+													</m_Y>
+												</m_Position>
+												<m_Scale value="1">
+												</m_Scale>
+												<m_Matrix>
+													<m_Components>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+													</m_Components>
+												</m_Matrix>
+											</m_LocalTransform2D>
+										</ElementVariable>
+									</VectorElement>
+									<VectorElement>
+										<ElementVariable type="ComponentColliderBox" id="21">
+											<m_OffsetLocalSpace>
+												<m_X value="0">
+												</m_X>
+												<m_Y value="0">
+												</m_Y>
+											</m_OffsetLocalSpace>
+											<m_HalfExtentsLocalSpace>
+												<m_X value="100">
+												</m_X>
+												<m_Y value="300">
+												</m_Y>
+											</m_HalfExtentsLocalSpace>
+										</ElementVariable>
+									</VectorElement>
+								</m_Components>
+								
+								<m_Children>
+								</m_Children>
+							</ElementVariable>
+						</VectorElement>
+						<VectorElement>
+							<ElementVariable type="GameObject" name="WallDown" id="22">
+								<m_Components>
+									<VectorElement>
+										<ElementVariable type="ComponentTransform2D" id="23">
+											<m_LocalTransform2D>
+												<m_Position>
+													<m_X value="400">
+													</m_X>
+													<m_Y value="700">
+													</m_Y>
+												</m_Position>
+												<m_Scale value="1">
+												</m_Scale>
+												<m_Matrix>
+													<m_Components>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="0">
+															</ElementVariable>
+														</ArrayElement>
+														<ArrayElement>
+															<ElementVariable value="1">
+															</ElementVariable>
+														</ArrayElement>
+													</m_Components>
+												</m_Matrix>
+											</m_LocalTransform2D>
+										</ElementVariable>
+									</VectorElement>
+									<VectorElement>
+										<ElementVariable type="ComponentColliderBox" id="24">
+											<m_OffsetLocalSpace>
+												<m_X value="0">
+												</m_X>
+												<m_Y value="0">
+												</m_Y>
+											</m_OffsetLocalSpace>
+											<m_HalfExtentsLocalSpace>
+												<m_X value="600">
+												</m_X>
+												<m_Y value="100">
+												</m_Y>
+											</m_HalfExtentsLocalSpace>
+										</ElementVariable>
+									</VectorElement>
+								</m_Components>
+								
+								<m_Children>
+								</m_Children>
+							</ElementVariable>
+						</VectorElement>
+					</m_Children>
+				</ElementVariable>
+			</VectorElement>
+			<VectorElement>
+				<ElementVariable type="GameObject" name="ProjectileManager" id="25">
+					<m_Components>
+						<VectorElement>
+							<ElementVariable type="ComponentProjectileManager" id="26">
+								<m_ProjectilePrefab targetInstanceID="28">
+								</m_ProjectilePrefab>
+								<m_PoolSize value="200">
+								</m_PoolSize>
+							</ElementVariable>
+						</VectorElement>
+						<VectorElement>
+							<ElementVariable type="ComponentTransform2D" id="27">
+								<m_LocalTransform2D>
+									<m_Position>
+										<m_X value="0">
+										</m_X>
+										<m_Y value="0">
+										</m_Y>
+									</m_Position>
+									<m_Scale value="1">
+									</m_Scale>
+									<m_Matrix>
+										<m_Components>
+											<ArrayElement>
+												<ElementVariable value="1">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="0">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="0">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="1">
+												</ElementVariable>
+											</ArrayElement>
+										</m_Components>
+									</m_Matrix>
+								</m_LocalTransform2D>
+							</ElementVariable>
+						</VectorElement>
+					</m_Components>
+					
+					<m_Children>
+					</m_Children>
+				</ElementVariable>
+			</VectorElement>
+			<VectorElement>
+				<ElementVariable type="GameObject" name="EnemyManager" id="39">
+					<m_Components>
+						<VectorElement>
+							<ElementVariable type="ComponentEnemyManager" id="40">
+								<m_EnemyPrefab targetInstanceID="6">
+								</m_EnemyPrefab>
+								<m_PoolSize value="100">
+								</m_PoolSize>
+							</ElementVariable>
+						</VectorElement>
+						<VectorElement>
+							<ElementVariable type="ComponentTransform2D" id="41">
+								<m_LocalTransform2D>
+									<m_Position>
+										<m_X value="0">
+										</m_X>
+										<m_Y value="0">
+										</m_Y>
+									</m_Position>
+									<m_Scale value="1">
+									</m_Scale>
+									<m_Matrix>
+										<m_Components>
+											<ArrayElement>
+												<ElementVariable value="1">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="0">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="0">
+												</ElementVariable>
+											</ArrayElement>
+											<ArrayElement>
+												<ElementVariable value="1">
+												</ElementVariable>
+											</ArrayElement>
+										</m_Components>
+									</m_Matrix>
+								</m_LocalTransform2D>
+							</ElementVariable>
+						</VectorElement>
+					</m_Components>
+					
+					<m_Children>
+					</m_Children>
+				</ElementVariable>
+			</VectorElement>
+		</m_Children>
+	</m_Root>
+</Scene>

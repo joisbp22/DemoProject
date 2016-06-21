@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Application\ApplicationBase.cpp" />
+    <ClCompile Include="..\Source\Application\ApplicationSettings.cpp" />
+    <ClCompile Include="..\Source\Application\Platforms\ApplicationWin32.cpp" />
+    <ClCompile Include="..\Source\Application\Platforms\MainWin32.cpp" />
+    <ClCompile Include="..\Source\EventSystem\EventBase.cpp" />
+    <ClCompile Include="..\Source\EventSystem\EventModule.cpp" />
+    <ClCompile Include="..\Source\EventSystem\Events\EventCollision.cpp" />
+    <ClCompile Include="..\Source\EventSystem\Events\EventInput.cpp" />
+    <ClCompile Include="..\Source\EventSystem\IEventListener.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\ComponentBase.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\Components\ComponentTransform2D.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\Components\ComponentVisual.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBase.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBox.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderLine.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentRigidBody.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\GameObject.cpp" />
+    <ClCompile Include="..\Source\GameObjectSystem\GameObjectModule.cpp" />
+    <ClCompile Include="..\Source\Graphics\GraphicsModule.cpp" />
+    <ClCompile Include="..\Source\Graphics\Platforms\graphics.cpp" />
+    <ClCompile Include="..\Source\Graphics\Platforms\RendererWin32.cpp" />
+    <ClCompile Include="..\Source\Graphics\Renderables\IRenderable.cpp" />
+    <ClCompile Include="..\Source\Graphics\Renderables\Renderable2DBox.cpp" />
+    <ClCompile Include="..\Source\Graphics\Renderables\Renderable2DLine.cpp" />
+    <ClCompile Include="..\Source\Graphics\Renderables\Renderable2DTriangle.cpp" />
+    <ClCompile Include="..\Source\Graphics\RendererBase.cpp" />
+    <ClCompile Include="..\Source\InputSystem\InputModule.cpp" />
+    <ClCompile Include="..\Source\InputSystem\Platforms\InputUtilsWin32.cpp" />
+    <ClCompile Include="..\Source\Math\Math.cpp" />
+    <ClCompile Include="..\Source\Math\Matrix2D.cpp" />
+    <ClCompile Include="..\Source\Math\Point2D.cpp" />
+    <ClCompile Include="..\Source\Math\Transform2D.cpp" />
+    <ClCompile Include="..\Source\Math\Vector2D.cpp" />
+    <ClCompile Include="..\Source\ModuleSystem\ModuleBase.cpp" />
+    <ClCompile Include="..\Source\ModuleSystem\ModuleManager.cpp" />
+    <ClCompile Include="..\Source\PhysicsSystem\AABB.cpp" />
+    <ClCompile Include="..\Source\PhysicsSystem\ICollideable.cpp" />
+    <ClCompile Include="..\Source\PhysicsSystem\PhysicsModule.cpp" />
+    <ClCompile Include="..\Source\Serialization\ISerializable.cpp" />
+    <ClCompile Include="..\Source\Serialization\Serializable.cpp" />
+    <ClCompile Include="..\Source\Serialization\SerializationModule.cpp" />
+    <ClCompile Include="..\Source\Serialization\Serializers\SerializerBase.cpp" />
+    <ClCompile Include="..\Source\Serialization\Serializers\SerializerClone.cpp" />
+    <ClCompile Include="..\Source\Serialization\Serializers\SerializerXML.cpp" />
+    <ClCompile Include="..\Source\Utils\Color.cpp" />
+    <ClCompile Include="..\Source\Utils\time.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Application\ApplicationBase.h" />
+    <ClInclude Include="..\Source\Application\ApplicationSettings.h" />
+    <ClInclude Include="..\Source\Application\Platforms\ApplicationWin32.h" />
+    <ClInclude Include="..\Source\EventSystem\EventBase.h" />
+    <ClInclude Include="..\Source\EventSystem\EventModule.h" />
+    <ClInclude Include="..\Source\EventSystem\EventModule.hpp" />
+    <ClInclude Include="..\Source\EventSystem\Events\EventCollision.h" />
+    <ClInclude Include="..\Source\EventSystem\Events\EventInput.h" />
+    <ClInclude Include="..\Source\EventSystem\IEventListener.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\ComponentBase.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\Components\ComponentTransform2D.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\Components\ComponentVisual.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBase.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBox.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderLine.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentRigidBody.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\GameObject.h" />
+    <ClInclude Include="..\Source\GameObjectSystem\GameObject.hpp" />
+    <ClInclude Include="..\Source\GameObjectSystem\GameObjectModule.h" />
+    <ClInclude Include="..\Source\Graphics\GraphicsModule.h" />
+    <ClInclude Include="..\Source\Graphics\Platforms\graphics.h" />
+    <ClInclude Include="..\Source\Graphics\Platforms\RendererWin32.h" />
+    <ClInclude Include="..\Source\Graphics\Renderables\IRenderable.h" />
+    <ClInclude Include="..\Source\Graphics\Renderables\Renderable2DBox.h" />
+    <ClInclude Include="..\Source\Graphics\Renderables\Renderable2DLine.h" />
+    <ClInclude Include="..\Source\Graphics\Renderables\Renderable2DTriangle.h" />
+    <ClInclude Include="..\Source\Graphics\RendererBase.h" />
+    <ClInclude Include="..\Source\InputSystem\InputModule.h" />
+    <ClInclude Include="..\Source\InputSystem\InputUtils.h" />
+    <ClInclude Include="..\Source\InputSystem\Platforms\InputUtilsWin32.h" />
+    <ClInclude Include="..\Source\Math\Math.h" />
+    <ClInclude Include="..\Source\Math\Matrix2D.h" />
+    <ClInclude Include="..\Source\Math\Point2D.h" />
+    <ClInclude Include="..\Source\Math\Transform2D.h" />
+    <ClInclude Include="..\Source\Math\Vector2D.h" />
+    <ClInclude Include="..\Source\ModuleSystem\ModuleBase.h" />
+    <ClInclude Include="..\Source\ModuleSystem\ModuleManager.h" />
+    <ClInclude Include="..\Source\ModuleSystem\ModuleManager.hpp" />
+    <ClInclude Include="..\Source\PhysicsSystem\AABB.h" />
+    <ClInclude Include="..\Source\PhysicsSystem\ICollideable.h" />
+    <ClInclude Include="..\Source\PhysicsSystem\PhysicsModule.h" />
+    <ClInclude Include="..\Source\Serialization\ISerializable.h" />
+    <ClInclude Include="..\Source\Serialization\Serializable.h" />
+    <ClInclude Include="..\Source\Serialization\SerializationModule.h" />
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerBase.h" />
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerClone.h" />
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerClone.hpp" />
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerXML.h" />
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerXML.hpp" />
+    <ClInclude Include="..\Source\Utils\Color.h" />
+    <ClInclude Include="..\Source\Utils\Factory.h" />
+    <ClInclude Include="..\Source\Utils\Factory.hpp" />
+    <ClInclude Include="..\Source\Utils\Singleton.h" />
+    <ClInclude Include="..\Source\Utils\Singleton.hpp" />
+    <ClInclude Include="..\Source\Utils\time.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\Data\ApplicationSettings.xml" />
+    <Xml Include="..\..\..\Data\ModuleSettings.xml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19B58AE8-1901-46A0-9952-95E672EC86F5}</ProjectGuid>
+    <RootNamespace>test</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24720.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)..\Build\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)..\Build\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Source;$(ProjectDir)..\..\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;user32.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\tinyxml\Build\Debug\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>tinyxmlSTL.lib</AdditionalDependencies>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Source;$(ProjectDir)..\..\tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;user32.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>tinyxmlSTL.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\tinyxml\Build\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

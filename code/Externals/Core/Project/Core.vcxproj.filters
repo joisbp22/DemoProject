@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{bb08a30c-a31d-4126-9bc4-a1a8813a5a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Application">
+      <UniqueIdentifier>{05c29d36-1075-4810-8a47-e9377399e907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{7c3d90b8-1159-4922-ad2d-e0f13dfdef61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{38707c8f-df4b-4c7d-9ebe-a31d0b3d7553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EventSystem">
+      <UniqueIdentifier>{c013e77a-0a79-49b7-8d0b-9151a599539e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ModuleSystem">
+      <UniqueIdentifier>{5be594f3-ec8c-4681-972f-97d3e78de79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EventSystem\Events">
+      <UniqueIdentifier>{7fce495b-643e-4fc9-b99d-4e12f6763bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PhysicsSystem">
+      <UniqueIdentifier>{b76f03d6-e886-4a03-842a-27f39fe4fd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Application\Platforms">
+      <UniqueIdentifier>{fb4c9fae-b5e9-4ee7-80be-948c17e74cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObjectSystem">
+      <UniqueIdentifier>{874894a9-fc4f-4263-a137-7f142e2c49ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{5e493cd9-3265-4b77-a41f-d7fde99bd7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\InputSystem">
+      <UniqueIdentifier>{d0ba938d-41d0-46ff-8f45-78cea7728902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\InputSystem\Platforms">
+      <UniqueIdentifier>{4756ebca-f680-4090-9926-b239f7b1b60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObjectSystem\Components">
+      <UniqueIdentifier>{e684d463-69b2-41ba-bbaa-1e76daeeab7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Serialization">
+      <UniqueIdentifier>{3ffee231-cd14-4bd5-b693-96a20ebea356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Platforms">
+      <UniqueIdentifier>{cc44c1ce-985c-4a5d-a828-25d5d543bdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Renderables">
+      <UniqueIdentifier>{f557921d-35f8-49d9-a79a-ac3d8e220b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{4dfdf052-1e1e-4387-a017-f9800675bb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObjectSystem\Components\Physics">
+      <UniqueIdentifier>{8592481e-589c-4c1b-befb-d70d77443f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Serialization\Serializers">
+      <UniqueIdentifier>{3a6693bd-b784-492e-9b04-6a1b373b62a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Application\ApplicationBase.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utils\time.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\EventSystem\EventBase.cpp">
+      <Filter>Source\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\EventSystem\EventModule.cpp">
+      <Filter>Source\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\EventSystem\Events\EventInput.cpp">
+      <Filter>Source\EventSystem\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicsSystem\PhysicsModule.cpp">
+      <Filter>Source\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\EventSystem\Events\EventCollision.cpp">
+      <Filter>Source\EventSystem\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Application\Platforms\ApplicationWin32.cpp">
+      <Filter>Source\Application\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Application\Platforms\MainWin32.cpp">
+      <Filter>Source\Application\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Application\ApplicationSettings.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\EventSystem\IEventListener.cpp">
+      <Filter>Source\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\ComponentBase.cpp">
+      <Filter>Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\GameObject.cpp">
+      <Filter>Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\GameObjectModule.cpp">
+      <Filter>Source\GameObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InputSystem\InputModule.cpp">
+      <Filter>Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InputSystem\Platforms\InputUtilsWin32.cpp">
+      <Filter>Source\InputSystem\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\Components\ComponentTransform2D.cpp">
+      <Filter>Source\GameObjectSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Serialization\Serializable.cpp">
+      <Filter>Source\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\Components\ComponentVisual.cpp">
+      <Filter>Source\GameObjectSystem\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Serialization\SerializationModule.cpp">
+      <Filter>Source\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\GraphicsModule.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ModuleSystem\ModuleBase.cpp">
+      <Filter>Source\ModuleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ModuleSystem\ModuleManager.cpp">
+      <Filter>Source\ModuleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\RendererBase.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platforms\graphics.cpp">
+      <Filter>Source\Graphics\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platforms\RendererWin32.cpp">
+      <Filter>Source\Graphics\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Renderables\IRenderable.cpp">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Renderables\Renderable2DBox.cpp">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Renderables\Renderable2DLine.cpp">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Renderables\Renderable2DTriangle.cpp">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Math.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Vector2D.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Point2D.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utils\Color.cpp">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Serialization\ISerializable.cpp">
+      <Filter>Source\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Transform2D.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBase.cpp">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBox.cpp">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentRigidBody.cpp">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicsSystem\ICollideable.cpp">
+      <Filter>Source\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicsSystem\AABB.cpp">
+      <Filter>Source\PhysicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderLine.cpp">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Matrix2D.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Serialization\Serializers\SerializerBase.cpp">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Serialization\Serializers\SerializerClone.cpp">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Serialization\Serializers\SerializerXML.cpp">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Application\ApplicationBase.h">
+      <Filter>Source\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utils\time.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\EventSystem\EventBase.h">
+      <Filter>Source\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\EventSystem\EventModule.h">
+      <Filter>Source\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\EventSystem\Events\EventInput.h">
+      <Filter>Source\EventSystem\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PhysicsSystem\PhysicsModule.h">
+      <Filter>Source\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\EventSystem\Events\EventCollision.h">
+      <Filter>Source\EventSystem\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Application\Platforms\ApplicationWin32.h">
+      <Filter>Source\Application\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utils\Singleton.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utils\Singleton.hpp">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Application\ApplicationSettings.h">
+      <Filter>Source\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\EventSystem\EventModule.hpp">
+      <Filter>Source\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\EventSystem\IEventListener.h">
+      <Filter>Source\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utils\Factory.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utils\Factory.hpp">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\ComponentBase.h">
+      <Filter>Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\GameObject.h">
+      <Filter>Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\GameObjectModule.h">
+      <Filter>Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\InputSystem\InputModule.h">
+      <Filter>Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\InputSystem\InputUtils.h">
+      <Filter>Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\InputSystem\Platforms\InputUtilsWin32.h">
+      <Filter>Source\InputSystem\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\Components\ComponentTransform2D.h">
+      <Filter>Source\GameObjectSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\Serializable.h">
+      <Filter>Source\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\GameObject.hpp">
+      <Filter>Source\GameObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\Components\ComponentVisual.h">
+      <Filter>Source\GameObjectSystem\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\SerializationModule.h">
+      <Filter>Source\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\GraphicsModule.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ModuleSystem\ModuleBase.h">
+      <Filter>Source\ModuleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ModuleSystem\ModuleManager.h">
+      <Filter>Source\ModuleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ModuleSystem\ModuleManager.hpp">
+      <Filter>Source\ModuleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\RendererBase.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platforms\graphics.h">
+      <Filter>Source\Graphics\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platforms\RendererWin32.h">
+      <Filter>Source\Graphics\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Renderables\IRenderable.h">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Renderables\Renderable2DBox.h">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Renderables\Renderable2DLine.h">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Renderables\Renderable2DTriangle.h">
+      <Filter>Source\Graphics\Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Math.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Vector2D.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Point2D.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utils\Color.h">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\ISerializable.h">
+      <Filter>Source\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Transform2D.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBase.h">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderBox.h">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentRigidBody.h">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PhysicsSystem\ICollideable.h">
+      <Filter>Source\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PhysicsSystem\AABB.h">
+      <Filter>Source\PhysicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GameObjectSystem\Components\Physics\ComponentColliderLine.h">
+      <Filter>Source\GameObjectSystem\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Math\Matrix2D.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerBase.h">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerClone.h">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerClone.hpp">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerXML.h">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Serialization\Serializers\SerializerXML.hpp">
+      <Filter>Source\Serialization\Serializers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\Data\ApplicationSettings.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Data\ModuleSettings.xml">
+      <Filter>Data</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

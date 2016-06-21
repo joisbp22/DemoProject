@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Modules name="moduleSystem">
+	<Updateable>
+		<!-- the order in the file corresponds to the initialization and update order in the game-->
+		<Module type="GameObjectModule"/>
+		<Module type="PhysicsModule"/>
+    <Module type="GraphicsModule"/>
+	</Updateable>
+	<Others>
+    <Module type="EventModule"/>
+    <Module type="InputModule"/>
+    <Module type="SerializationModule"/>
+    <Module type="GameComponentRegistrationModule"/>
+	</Others>
+</Modules>
